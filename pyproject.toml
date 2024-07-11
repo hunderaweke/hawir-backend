@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hawir-backend"
+version = "0.1.0"
+description = ""
+authors = ["Hundera Awoke <hunderaweke@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^5.0.7"
+djangorestframework = "^3.15.2"
+python-decouple = "^3.8"
+black = "^24.4.2"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
